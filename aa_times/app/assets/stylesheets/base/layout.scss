@@ -6,26 +6,35 @@ html {
 }
 
 body {
+  width: 80%;
+  margin: auto;
+  font-family: $serif;
+  font-size: 12px;
+  
 	// ...
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	background-color: $light-blue;
+	border-color: $dark-gray; 
+	color: #fff; 
+	font-weight: bold;
+	padding: 7px 7px; 
+	border-radius: px; 
+	// transition: 
+	font-family: $sans-serif;
+	text-transform: uppercase;
+	font-size: 10px; 
+	text-align: center;
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: $darkest-blue; 
+	border-color: $dark-blue; 
+}
+
+.hidden {
+  display: none; 
 }
 
 /*
@@ -47,3 +56,4 @@ hr {
 	height: 2px;
 	margin-bottom: 1px;
 }
+

@@ -8,7 +8,7 @@
 
 .language-nav {
 	position: absolute;
-	top: -15px;
+	top: -20px;
 	left: calc(50% - (177.78px/2));
 	background: white;
 	border: 1px solid $light-gray;
@@ -47,16 +47,38 @@
 	border-right: 1px solid $light-gray;
 }
 
+.language-links li {
+  border-right: none;
+}
+
+.masthead-links li:last-of-type {
+  border-right: none; 
+}
+
+.language-nav li:first-of-type {
+  font-weight: bold; 
+}
+
 .masthead-links button {
 	background: none;
 	padding: 0px;
 	color: #000;
 	font-weight: normal;
 	border: none;
+  font-size: 11px; 
+  border-radius: 3px;
 }
 
 .masthead-links button:hover {
-	background-color: $lightest-gray;
+	background-color: $light-gray;
+}
+
+.masthead-links a:hover{
+  text-decoration: underline;
+}
+
+.hover_gray {
+  background-color: $lightest-gray;
 }
 
 .masthead-links a,
@@ -71,4 +93,9 @@
 
 .masthead-links strong {
 	color: green;
+}
+
+.language-links {
+  margin-top: 2px; 
+  margin-bottom: 5px; 
 }
